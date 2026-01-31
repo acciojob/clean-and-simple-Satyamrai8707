@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+.custom-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Odd rows */
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Even rows */
+.custom-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
